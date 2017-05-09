@@ -1,0 +1,307 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body, header {
+  font-family: "Fira Mono", monospace;
+  font-size: 16px;
+  line-height: 2em;
+  width: 100%;
+}
+
+header .container {
+  width: 450px;
+}
+
+header > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome {
+  background-image: url(img/grit-green.jpg);
+  min-height: 100vh;
+  color: white;
+  text-align:center;
+}
+
+.welcome .container {
+  position: relative;
+  animation: lightUp 0.5s ease;
+}
+
+.about.col-md-6 {
+  min-height: 100vh;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 60px auto;
+}
+
+.brand {
+  margin: 60px auto;
+}
+
+.established {
+  display: inline-block;
+  border: 1px solid white;
+  text-transform: uppercase;
+  padding: 10px 35px;
+}
+
+.adress {
+  font-size: 12px;
+  margin: 40px;
+}
+
+.about .section {
+  margin-bottom: 40px;
+  font-size: 12px;
+}
+
+.about .section h3 {
+  color: #50B557;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.about .section p {
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+.about .section a {
+  border-bottom: 1px dashed #50B557;
+}
+
+a:hover {
+  text-decoration: none;
+  color:#50B557;
+}
+
+section .container {
+    width:1020px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+section:nth-of-type(2n+1) .container {
+    width:1020px;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+
+section:nth-of-type(2n+1) .container {
+  text-align: center;
+}
+
+section:nth-of-type(2n) h2 {
+  color: #50B557;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+section:nth-of-type(2n+1) h2 {
+  font-size: 32px;
+}
+
+section:nth-of-type(2n) .container {
+  text-align: left;
+}
+
+section:nth-of-type(2n) .container > p {
+  font-size: 24px;
+  margin-bottom: 60px;
+  width: 800px;
+}
+
+section h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 80px;
+}
+
+section:nth-of-type(2n) h3 {
+  margin-bottom: 50px;
+}
+
+.approach, .vacancies {
+  background-image: url(img/grit-gray.jpg);
+  color: white;
+  overflow-x: hidden;
+}
+
+.approach a {
+  border-bottom: 1px dashed white;
+}
+
+.approach a:hover {
+  border-bottom-color: #50B557;
+}
+
+.graph {
+  max-width: 1600px;
+  margin: 80px auto;
+}
+
+.description {
+  width: 600px;
+  margin: 80px auto 120px;
+}
+
+.program h3, .program h5, .network h3, .prof {
+  color: rgba(0,0,0,0.3);
+  text-transform: uppercase;
+}
+
+.persons .col-md-6 h4 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.persons .col-md-6 h5 {
+  margin-bottom: 40px;
+}
+
+.git {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.socials a {
+  color: #50B557;
+  font-size: 16px;
+  transition: transform 0.3s;
+}
+
+.socials i {
+  transition: transform 0.3s;
+}
+
+.socials a:hover i {
+  transform: scale(1.5);
+  transform-origin: center;
+}
+
+.techs {
+  background-image: url(img/grit.jpg);
+}
+
+.techs h2 {
+  margin-bottom: 120px;
+}
+
+section.techs .container,
+section.vacancies .container {
+  padding-bottom: 120px;
+}
+
+.techs .row div {
+  margin-bottom: 80px;
+}
+
+.techs img {
+  height: 40px;
+  width: 100%;
+}
+
+.network .row > div {
+  height: 350px;
+}
+
+.network .prof {
+  border-top: 1px solid rgba(0,0,0,0.3);
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.network .name {
+  font-size: 24px;
+}
+
+.network .spec {
+  line-height: 20px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.network .spec p {
+  margin: 0;
+}
+
+.vacancies .table {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.vacancies .position {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 15px 0;
+}
+
+.vacancies .position p {
+  margin: 0;
+}
+
+.vacancies .etc {
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 120px;
+}
+
+footer {
+  background-image: url(img/grit-green.jpg);
+  color: white;
+  text-align: center;
+  padding: 120px 0;
+}
+
+footer .finish-slogan img {
+  height: 100px;
+}
+
+footer .finish-logo img {
+  height: 30px;
+}
+
+footer p {
+  width: 600px;
+  margin: 80px auto;
+}
+
+footer a {
+  display: inline-block;
+  border: 1px solid white;
+  text-transform: uppercase;
+  padding: 5px 50px;
+  margin: 0px auto 80px;
+}
+
+
+@keyframes lightUp {
+  0% {
+    opacity: 0;
+    top: 30px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
