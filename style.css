@@ -18,6 +18,11 @@ header > div {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 30px 0;
+}
+
+.row {
+  margin: 0;
 }
 
 .welcome {
@@ -45,6 +50,7 @@ header h1 {
   text-transform: uppercase;
   font-size: 16px;
   margin: 60px auto;
+  letter-spacing: 2px;
 }
 
 .brand {
@@ -94,29 +100,31 @@ a:hover {
 }
 
 section .container {
+    max-width: 90%;
     width:1020px;
     margin: 0 auto;
     padding: 120px 0;
 }
 
 section:nth-of-type(2n+1) .container {
+    max-width: 90%;
     width:1020px;
     margin: 0 auto;
     padding-bottom: 0;
-}
-
-section:nth-of-type(2n+1) .container {
-  text-align: center;
+    text-align: center;
 }
 
 section:nth-of-type(2n) h2 {
   color: #50B557;
   font-size: 40px;
+  font-family: Volkhov;
   margin-bottom: 40px;
 }
 
 section:nth-of-type(2n+1) h2 {
-  font-size: 32px;
+  font-size: 40px;
+  font-family: Volkhov;
+  line-height: 1.5em;
 }
 
 section:nth-of-type(2n) .container {
@@ -127,6 +135,7 @@ section:nth-of-type(2n) .container > p {
   font-size: 24px;
   margin-bottom: 60px;
   width: 800px;
+  max-width: 95%;
 }
 
 section h3 {
@@ -171,6 +180,7 @@ section:nth-of-type(2n) h3 {
 .persons .col-md-6 h4 {
   font-size: 32px;
   margin-bottom: 20px;
+  font-family: "Droid Sans Mono";
 }
 
 .persons .col-md-6 h5 {
@@ -180,6 +190,7 @@ section:nth-of-type(2n) h3 {
 .git {
   margin-top: 40px;
   font-size: 20px;
+  font-family: "Droid Sans Mono";
 }
 
 .socials a {
@@ -232,6 +243,7 @@ section.vacancies .container {
 
 .network .name {
   font-size: 24px;
+  font-family: "Droid Sans Mono";
 }
 
 .network .spec {
@@ -293,7 +305,6 @@ footer a {
   padding: 5px 50px;
   margin: 0px auto 80px;
 }
-
 
 @keyframes lightUp {
   0% {
